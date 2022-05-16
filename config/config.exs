@@ -17,9 +17,9 @@ config :counter, CounterWeb.Endpoint,
 
 
 # Configure tailwind
-config: tailwind,
+config  :tailwind,
   version: "3.1.10",
-  default:[
+  default: [
     args: ~w(
       --config=tailwind.config.js
       --input=css/app.css
